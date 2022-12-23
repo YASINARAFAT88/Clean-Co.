@@ -15,7 +15,7 @@ const Testimonials = () => {
         {
             id: 2,
             name: 'john Abraham',
-            location: 'Amirica',
+            location: 'America',
             img: people2
         },
         {

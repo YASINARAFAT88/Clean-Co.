@@ -1,10 +1,13 @@
 import React from 'react';
 import chair from '../../doctors-portal-resources/assets/images/chair.png'
 import Button from '../Shared/Button';
+import bGround from '../../doctors-portal-resources/assets/images/bGround.png'
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen">
+        <div style={{
+            background: `url(${bGround})`
+        }} className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={chair} className="max-w-sm rounded-lg shadow-2xl" alt='' />
                 <div>
