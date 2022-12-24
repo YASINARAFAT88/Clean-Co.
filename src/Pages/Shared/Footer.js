@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <p className='text-center pt-10'>Copyright © 2023 - All right reserved by Yasin Arafat-Doctors-Portal!</p>
+                <p className='text-center pt-10'><small>Copyright © 2023 - All right reserved by Yasin Arafat-Doctors-Portal!</small></p>
             </div>
         </footer>
     );

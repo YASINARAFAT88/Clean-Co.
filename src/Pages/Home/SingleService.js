@@ -4,7 +4,7 @@ import Button from '../Shared/Button';
 
 const SingleService = () => {
     return (
-        <div className="hero min-h-screen lg:w-4/5 my-10 mx-auto">
+        <div className="hero h-[600px] lg:w-4/5 my-10 mx-auto">
             <div className="hero-content flex-col lg:flex-row">
                 <img src={treatment} className="max-w-sm rounded-lg shadow-2xl" />
                 <div className='lg:pl-20'>
