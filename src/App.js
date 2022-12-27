@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navber from './components/Navber';
-import Home from './Pages/Home';
+import Home from './Pages/Home/Home';
 import { Route, Routes } from 'react-router-dom';
 import Services from './Pages/Services';
 import About from './Pages/About';

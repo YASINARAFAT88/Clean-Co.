@@ -6,8 +6,8 @@ const Navber = ({ children }) => {
         <div className="drawer drawer-end">
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
-                <div className="w-full navbar bg-base-300 px-10">
-                    <div className="flex-1 px-2 mx-2 text-2xl">Clean Co.</div>
+                <div className="w-full navbar fixed top-0 bg-pink-200 z-50 px-10">
+                    <div className="flex-1 px-2 mx-2 text-2xl"><h1 className='font-bold'>Clean Co.</h1></div>
                     <div className="flex-none lg:hidden">
                         <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
@@ -22,10 +22,12 @@ const Navber = ({ children }) => {
                             <li><NavLink className='rounded-lg font-bold' to='/about'>About</NavLink></li>
                             <li><NavLink className='rounded-lg font-bold' to='/login'>Login</NavLink></li>
                             <li className="dropdown dropdown-hover dropdown-end ">
-                                <label tabIndex={0} className="btn m-1 rounded-lg btn-primary btn-outline">Hover</label>
+                                <label tabIndex={0} className="btn m-1 rounded-lg btn-primary btn-outline">More</label>
                                 <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><a>Item 1</a></li>
-                                    <li><a>Item 2</a></li>
+                                    <li><a>Information</a></li>
+                                    <li><a>Services</a></li>
+                                    <li><a>Section</a></li>
+                                    <li><a>Column</a></li>
                                 </ul>
                             </li>
 
